@@ -22,10 +22,16 @@ To get started with this project, you need to install the necessary dependencies
 
 ### Setup
 
-1. **Clone the repository**
+0. **Clone the repository**
    ```bash
    git clone https://github.com/BigG-DSC/p2e-solidity.git
    cd p2e-solidity
+   ```
+
+1. **Set your environment variables**
+Setup the .env file in root folder and introduce your hardhat endpoint (by default on 8545 port):
+   ```bash
+   REACT_APP_RPC_URL=http://127.0.0.1:8545
    ```
 
 2. **Run Hardhat**
