@@ -29,12 +29,16 @@ To get started with this project, you need to install the necessary dependencies
    ```
 
 2. **Run Hardhat**
+   ```
    yarn install
    yarn hardhat node
    yarn hardhat run scripts/deploy.js
+   ```
 
 3. **Install React App**
+   ```
    yarn start
+   ```
 
 ### Contributing
 Contributions are welcome! If you would like to contribute, please follow these steps:
